@@ -1,0 +1,21 @@
+main_program
+	begin
+		int a = 6
+		var b = 2
+		
+		call printSum(a)
+		print ("ThisIsTheRight")
+	end
+
+sub_program printSum(float a)
+    begin
+		sum = 0
+		int number = 0
+		while(number<a)
+			begin
+				number = number+1
+                sum = sum + number
+                print(sum)
+			end
+		return
+    end

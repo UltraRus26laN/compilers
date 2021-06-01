@@ -1,0 +1,19 @@
+main_program
+	begin
+		var a = 6
+        var b = 2
+        var z = a * b
+        call printSum(a)
+        print (z)
+	end
+
+sub_program printSum(var a)
+    begin
+		while (a<3)
+			begin
+			    var number = 2+1
+				var sum = number + number
+				print(sum)
+			end
+	    return
+	end

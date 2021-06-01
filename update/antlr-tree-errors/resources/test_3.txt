@@ -1,0 +1,21 @@
+main_program
+	begin
+		int a = 6
+		int b = 2
+		call sum (a,b)
+		int min = c * s
+		print (min)
+	end
+
+sub_program sum (int a, int b)
+    begin
+		int summa = a + b
+		int s = summa + b
+		return
+    end
+
+sub_program int min (int a, int b)
+    begin
+		int c = a - 3
+		return c
+    end

@@ -1,0 +1,12 @@
+main_program
+begin
+var f = 6
+if(f==6)
+begin
+a=5
+end
+then
+begin
+f=6
+end
+end

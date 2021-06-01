@@ -1,0 +1,22 @@
+main_program
+	begin
+		a = 1
+		b = 2
+		if (a == b)
+			begin
+				a = 0
+			end
+		then
+			begin
+				print (b)
+				a = 0
+			end
+		while (a>b)
+			begin
+				c = b + 1
+				print (a)
+			end
+	end
+
+
+
